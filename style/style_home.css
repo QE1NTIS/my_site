@@ -1,0 +1,240 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0; 
+    
+}
+
+.navigation_block {
+    max-height: 100%;
+    width: 422px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #0000000e;
+    background-size: cover;
+    float: left;
+    padding-top: 100px;
+}
+
+.menu {
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+.title {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Poppins;
+}
+
+
+.menu__item {
+    padding-bottom: 20px;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #2B2B2B;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main__aboutme-block {
+   display: flex;
+   max-height: 100%;
+   max-width: 100%;
+   gap: 97px;
+   
+}
+
+.main__info {
+    padding-top: 67px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_bg {
+    font-family: Poppins;
+    font-size: 70px;
+    position: absolute;
+    color: #EDEDED;
+    z-index: -1;
+}
+
+.main__title {
+    font-family: Poppins;
+    font-size: 40px;
+    color: #000;
+    letter-spacing: 1px;
+}
+
+.title_lightgray {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #999999;
+    font-size: 23px;
+}
+.main__text {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #999999;
+    line-height: 32.4px;
+}
+
+.text_purple
+{
+    color: #7d9bff;
+}
+
+.signature {
+    font-family: Herr Von Muellerhoff;
+    font-size: 40px;
+    font-weight: 400;
+    color: #000000be;
+}
+
+/* .main {
+    max-width: 100%;
+} */
+
+.footer {
+    max-height: 100%;
+    background-color: #242423;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.demoworks {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 280px;
+    gap: 40px;
+
+}
+
+.footer__title {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 3px;
+}
+
+.img-block {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.img__item{
+    width: 99px;
+}
+
+.Contacts{
+    width: 273px;
+    height: 199px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: left;
+}
+
+.copyrights-text {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 25.2px;
+    color: #ffffff60;
+    font-weight: 400;
+    padding-top: 40px;
+}
+
+.contacts_location__item {
+    font-family: Montserrat;
+    font-size: 14px;
+    padding-bottom: 15px;
+    line-height: 21px;
+    color: #ffffff60;
+    list-style-image: url(.//Image/Location_marker.svg);
+    padding-left: 23px;
+}
+
+.contacts_phone__item {
+    font-family: Montserrat;
+    font-size: 14px;
+    padding-bottom: 25px;
+    line-height: 21px;
+    color: #FFFFFF;
+    list-style-image: url(.//Image/Phone_marker.svg);
+    padding-left: 15px;
+
+}
+
+.contacts_mail__item {
+    font-family: Montserrat;
+    font-size: 14px;
+    padding-bottom: 15px;
+    line-height: 21px;
+    color: #FFFFFF;
+    list-style-image: url(./Image/Mail_marker.svg);
+    padding-left: 15px;
+}
+
+@media (max-width: 1050px ) {
+    .footer {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 100px;
+    }
+}
+
+@media (max-width: 1820px ) {
+    .main__aboutme-block {
+        padding-left: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    }
+
+    @media (max-width: 1703px ) {
+        .main__aboutme-block {
+            padding-left: 200px;
+        }
+    }
+
+    @media (max-width: 1488px ) {
+        .main__aboutme-block {
+            padding-left: 100px;
+        }
+    }
+
+    @media (max-width: 1260px ) {
+        .main__aboutme-block {
+            padding-left: 0px
+        }
+    }
+
+    @media (max-width: 672px ) {
+        .main__hero {
+            max-width: 350px;
+        }
+    }
+
+    @media (max-width: 350px ) {
+        .main__hero {
+            max-width: 200px;
+        }
+    }
